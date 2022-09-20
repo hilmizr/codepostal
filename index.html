@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Codepostal</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900' rel='stylesheet'>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+</head>
+
+<body>
+
+    <!----Header Section Start---->
+    <div class="header">
+        <h2>CODE<span>POSTAL</span></h2>
+        <h3 id="description">Mencari Kode Pos berdasarkan Provinsi, Kota/Kabupaten, Kecamatan, dan Kelurahan</h3>
+    </div>
+    <!-- Header Section End-->
+
+    <!----Content Section Start---->
+    <section>
+        <div class="container">
+            <div class="card">
+                <div class="card-content">
+                    <div class="content">
+                        <!----Dropdown Section Start---->
+                        <div>
+                            <div class="dropdown-menu" id="provinsi-drop">
+                                <label class="label">Provinsi</label>
+                                <div class="control">
+                                    <div class="select is-rounded" id="select-provinsi">
+                                        <select id="provinsi"> </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-menu" id="kabupaten-drop">
+                                <label class="label">Kota atau Kabupaten</label>
+                                <div class="control">
+                                    <div class="select is-rounded" id="select-kotakab">
+                                        <select id="kabupaten"></select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-menu" id="kecamatan-drop">
+                                <label class="label">Kecamatan</label>
+                                <div class="control">
+                                    <div class="select is-rounded" id="select-kecamatan">
+                                        <select id="kecamatan"></select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-menu" id="kelurahan-drop">
+                                <label class="label">Kelurahan</label>
+                                <div class="control">
+                                    <div class="select is-rounded" id="select-kecamatan">
+                                        <select id="kelurahan"></select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-menu" id="kodepos-drop">
+                                <label class="label">Hasil Kode Pos</label>
+                                <div class="control">
+                                    <div class="select is-rounded" id="select-kecamatan">
+                                        <select id="kodepos"></select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!----Dropdown Section End---->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----Content Section End---->
+
+    <!----Footer Section Start---->
+    <div class="footer">
+
+    </div>
+    <!-- Footer Section End-->
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
